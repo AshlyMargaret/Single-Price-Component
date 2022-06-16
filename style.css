@@ -22,7 +22,7 @@ ul,li{
 
 
 
-.single_container{
+.main_wrapper{
   
     height: 600px;
     width: 800px;
@@ -98,7 +98,7 @@ ul,li{
     font-weight: 700px;
 
 }
-.container_section{
+.wrapper{
    
     display: flex;
     flex-direction: row;
@@ -137,7 +137,7 @@ button{
 
  /* media queries */
  @media screen and (max-width: 600px){
-    .main_wrapper{
+    .wrapper{
         display: flex;
         flex-direction: column;
     }
